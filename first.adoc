@@ -4,7 +4,8 @@ Version 0.1, 2020
 :sectnums:                                                          
 :toc:                                                               
 :toclevels: 4                                                       
-:toc-title: My Content                                              
+:toc-title: My Content  
+:imagesdir: ./img                                            
                                                                     
 :description: Example AsciiDoc document                             
 :keywords: AsciiDoc                                                 
@@ -17,6 +18,28 @@ writing simple sectionless documents consisting only of a preamble.
 
 Some text
 
+*This is bold text*
+
+_This is cursiv text_
+
+`This is mono text`
+
 == Second section
 
 More test
+
+image::adorable.jpg[vogella Company]
+
+Docker allows to package the full stack in a container:
+
+* OS
+** Windows
+** Ubuntu
+* JVM,
+* App server
+* Application with its configuration
+
+[source,java]
+----
+include::./res/HelloWorld.java[]
+----
